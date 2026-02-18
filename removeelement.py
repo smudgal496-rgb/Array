@@ -1,3 +1,4 @@
+# Remove the given element from the array
 def removeelement(arr,ele):
   arr.remove(ele)
   return arr
