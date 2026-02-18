@@ -7,6 +7,6 @@ def duplicates(arr):
             if arr[i]==arr[j]:
                 c.append(arr[i])
     c=list(set(c))
-    return "duplicate elements=",c
+    return c
     
 print (duplicates([1,2,3,4,4,4,5,5,6,7,8,8]))
